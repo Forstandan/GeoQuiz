@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import com.bignerdranch.android.geoquiz.databinding.ActivityMainBinding
+import kotlin.math.abs
 
 class MainActivity : AppCompatActivity() {
 
@@ -39,10 +40,8 @@ class MainActivity : AppCompatActivity() {
             updateQuestion()
         }
         binding.previousButton.setOnClickListener {
-            if (currentIndex != 0) {
-                currentIndex = (currentIndex - 1) % questionBank.size
-                updateQuestion()
-            }
+            currentIndex = abs(currentIndex - 1) % questionBank.size
+            updateQuestion()
         }
 
         updateQuestion()
