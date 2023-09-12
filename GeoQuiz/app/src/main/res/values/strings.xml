@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">GeoQuiz</string>
     <!--questions-->
-    <string name="question_australia">Canberra is the capital of Australia.</string>
-    <string name="question_oceans">The Pacific Ocean is larger than the Atlantic Ocean</string>
-    <string name="question_mideast">The Suez Canal connects the Red Sea and the Indian Ocean.</string>
-    <string name="question_africa">The source of the Nile River is in Egypt.</string>
-    <string name="question_americas">The Amazon River is the longest river in the Americas.</string>
-    <string name="question_asia">Lake Baikal is the world\'s oldest and deepest freshwater lake.</string>
+    <string name="question_sanskrit">Sanskrit is an Indo-European Language.</string>
+    <string name="question_german">German considered a Romance language (a language derived from Latin).</string>
+    <string name="question_arabic">Arabic is considered a Sinitic language.</string>
+    <string name="question_magyar">The Hungarian invasions took place in the 12th and 13th centuries.</string>
+    <string name="question_thirtyYearsWar">The thirty years war is commonly divided into four phases.</string>
+    <string name="question_sweden">The Swedish Empire fell in 1721.</string>
     <!--buttons-->
     <string name="true_button">True</string>
     <string name="false_button">False</string>
